@@ -1,0 +1,24 @@
+{
+  "name": "smn/dbars",
+  "description": "Database Abstract Representation Structure",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simone",
+      "email": "simone.esposito1986@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "smn\\dbars\\": "src/" }
+  },
+  "require": {
+    "php": "^7.4",
+    "smn/hierarchynode": "dev-master",
+    "smn/phsystem": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "dev-master",
+    "friendsofphp/php-cs-fixer": "dev-master"
+  }
+}
